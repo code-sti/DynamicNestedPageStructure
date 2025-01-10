@@ -27,7 +27,7 @@ Follow these steps to set up the project:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/dynamic-nested-pages.git
+git clone https://github.com/code-sti/DynamicNestedPageStructure.git
 cd dynamic-nested-pages
 ```
 ````
