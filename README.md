@@ -1,4 +1,3 @@
-````markdown
 # Dynamic Nested Page Structure
 
 ## Project Overview
@@ -119,29 +118,25 @@ Before running the project, make sure you have the following installed:
 ### Example Page Structure
 
 A sample nested structure could look like this:
-````
 
 Page1
 ├── Page2
 │ ├── Page1 (Child of Page2)
-│ └── Page3
-│ ├── Page4
-│ └── Page5
-Page5 (Root-level page)
-
-```
+│ └── Page3 │ ├── Page4 │ └── Page5 Page5(Root-level page)
 
 The URL structure for this would be:
-- `/page1` -> Displays `Page1`
-- `/page1/page2` -> Displays `Page2`
-- `/page1/page2/page1` -> Displays child `Page1`
-- `/page1/page2/page3/page4` -> Displays `Page4`
+
+-   `/page1` -> Displays `Page1`
+-   `/page1/page2` -> Displays `Page2`
+-   `/page1/page2/page1` -> Displays child `Page1`
+-   `/page1/page2/page3/page4` -> Displays `Page4`
 
 ### Thoughts Behind This Project
 
 The idea for this project was born out of the need for a flexible content management solution. A lot of modern web applications require handling complex content structures that can be nested deeply, and managing these structures can become complicated.
 
 With Laravel providing powerful features like Eloquent ORM and Vue.js providing an intuitive frontend framework, I wanted to combine the two to create a solution that allows for:
+
 1. **Efficient Management of Nested Content**: Whether it's articles, blog posts, or other types of content, this structure allows users to build and manage them dynamically.
 2. **Dynamic Routing**: This helps in SEO optimization and in providing an easy-to-understand URL structure for deeply nested pages.
 3. **Scalability**: As the project grows, new pages can be added, and existing pages can be edited with ease. The structure allows for any depth of nesting.
@@ -174,4 +169,3 @@ If you want to contribute to this project, feel free to fork the repository and 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
