@@ -69,6 +69,12 @@ Before running the project, make sure you have the following installed:
     ```bash
     php artisan migrate
     ```
+    Run Seeder to seed fake data for testing
+
+    ```bash
+    php artisan db:seed --class=PageSeeder
+    ```
+
 
 5. **Install Frontend Dependencies**:
 
